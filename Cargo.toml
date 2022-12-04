@@ -1,0 +1,11 @@
+[package]
+name = "zipped"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Utility for recursively unzipping tuples, Options of tuples and Results of tuples."
+documentation = "https://docs.rs/zipped/"
+homepage = "https://github.com/glacyr/zipped"
+repository = "https://github.com/glacyr/zipped"
+
+[dependencies]
