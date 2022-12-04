@@ -4,7 +4,6 @@ Utility for recursively unzipping `tuple`s, `Option`s of `tuple`s and `Result`s
 of `tuple`s.
 
 ## Install
-
 ```bash
 cargo add zipped
 ```
@@ -33,6 +32,7 @@ non-recursive tuple. This also works for up to 26 tuple elements.
 use zipped::UnzipInto;
 
 let zipped = Some(1).zip(Some(2)).zip(Some(3));
+
 match zipped.unzip_into() {
     Some((a, b, c)) => {}
     None => {}
